@@ -12,3 +12,6 @@
 
 #misc
 .idea
+
+# Build
+dist

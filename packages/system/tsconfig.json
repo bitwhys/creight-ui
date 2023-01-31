@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./",
+    "baseUrl": ".",
+    "declarationDir": "types",
+    "module": "esnext",
+    "target": "ES2019",
+    "lib": ["esnext"]
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}
