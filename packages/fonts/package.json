@@ -1,0 +1,8 @@
+{
+  "name": "@creight/fonts",
+  "version": "0.0.0",
+  "sideEffects": true,
+  "exports": {
+    "./sunny-catalina.css": "./src/sunny-catalina/styles.css"
+  }
+}
