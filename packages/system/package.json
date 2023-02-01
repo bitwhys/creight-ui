@@ -5,9 +5,12 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --treeshake --clean --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
   },
   "devDependencies": {
+    "@chakra-ui/theme-tools": "^2.0.16",
+    "@creight/tsconfig": "workspace:*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5"
   }

@@ -1,0 +1,7 @@
+{
+  "name": "@creight/themes",
+  "version": "0.0.0",
+  "dependencies": {
+    "@creight/core": "workspace:*"
+  }
+}

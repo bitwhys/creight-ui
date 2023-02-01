@@ -1,0 +1,39 @@
+{
+  "name": "@creight/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook --docs",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@chakra-ui/storybook-addon": "^4.0.16",
+    "@creight/core": "workspace:0.0.0",
+    "@creight/fonts": "workspace:^0.0.0",
+    "@creight/tsconfig": "workspace:0.0.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-docs": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-vite": "^0.1.41",
+    "@storybook/react": "^6.5.14",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^1.3.2",
+    "eslint-config-creight": "workspace:0.0.0",
+    "framer-motion": "^8.5.5",
+    "serve": "^13.0.4",
+    "typescript": "^4.9.3",
+    "vite": "^2.9.15"
+  }
+}

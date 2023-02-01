@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "build:types": "tsc",
     "preview": "vite preview"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.4.9",
+    "@creight/core": "workspace:*",
     "@creight/fonts": "workspace:*",
-    "@creight/system": "workspace:*",
+    "@creight/themes": "workspace:*",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "framer-motion": "^8.5.5",
