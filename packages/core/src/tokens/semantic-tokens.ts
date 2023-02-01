@@ -64,8 +64,8 @@ export interface SemanticThemeTokens {
 export default {
   colors: {
     'bg-canvas': {
-      default: 'gray.50',
-      _dark: 'gray.900',
+      default: 'white',
+      _dark: 'black',
     },
     'bg-surface': {
       default: 'white',

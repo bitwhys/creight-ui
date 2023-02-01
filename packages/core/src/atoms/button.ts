@@ -9,8 +9,10 @@ const baseStyle = {
   ':focus:not(:focus-visible)': {
     boxShadow: 'none',
   },
-  fontWeight: 'medium',
-  borderRadius: 'lg',
+  fontWeight: 'semibold',
+  borderRadius: 'full',
+  lineHeight: '1rem',
+  display: 'inline-flex'
 }
 
 const sizes = {
